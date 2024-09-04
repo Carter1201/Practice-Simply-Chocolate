@@ -1,0 +1,82 @@
+/* main styles*/
+
+body {
+  background-color: #fafafa;
+  color: #111;
+  font-family: "Montserrat", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+.container {
+  max-width: 375px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header */
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 375px;
+  position: relative;
+}
+.logo {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.03em;
+}
+.logo-italic {
+  font-style: italic;
+}
+.logo-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21px;
+  height: 21px;
+  stroke-width: 1.8px;
+  stroke: #fd9222;
+  fill: #fd9222;
+}
+.menu-button {
+  height: 24px;
+  width: 24px;
+  stroke: black;
+  fill: #111;
+}
+.menu-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  background-color: transparent;
+}
+.menu-button-icon {
+  height: 28px;
+  width: 28px;
+}
